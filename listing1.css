@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Raleway&family=Ubuntu:wght@300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar  */
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+}
+
+/* Main Content  */
+.container{
+    height: 70vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 75%;
+    border-radius: 12px;
+    padding: 24px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 645px;
+}
+
+.songItemContainer{
+    margin-top: 34px;
+}
+
+.songItem{
+    height: 40px;
+    width: 55%;
+    display: flex;
+    /* border: 2px solid red; */
+    background-color: white;
+    color: rgb(225, 48, 78);
+    font-weight: bold;
+    border-radius: 34px;
+    margin: 12px 0;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img{
+    width: 35px;
+    border-radius: 34px;
+    margin-left: -60px;
+}
+
+.songItem i{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.songListPlay{
+    margin: 0 -33px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bottom{
+    position: sticky;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 100%;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons i{
+    padding: 0 5px;
+    cursor: pointer;
+    font-size: 25px;
+}

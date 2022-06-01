@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="listing1.css">
+    <script src="https://kit.fontawesome.com/bb166f9dc6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar  -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- Main Content  -->
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - NoCopyrightSounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="./Source/covers/1.jpg" alt="1">
+                    <span>Fade - Alan Walker</span>
+                    <span class="songListPlay">05:34 <i class="fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <!-- <audio controls>
+                        <source src="/music/1.mp3" type="audio/mpeg">
+                    </audio> -->
+                    <span>My Heart - Different Heaven</span>
+                    <span class="songListPlay">03:55 <i class="fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span>Sky High - Elektronomia</span>
+                    <span class="songListPlay">04:01 <i class="fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span>Nova - Ahrix</span>
+                    <span class="songListPlay">05:00 <i class="fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span>Invincible - Deaf Kev</span>
+                    <span class="songListPlay">03:40 <i class="fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span>Spectra - Alan Walker</span>
+                    <span class="songListPlay">04:34 <i class="fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span>Cartoon - On & On</span>
+                    <span class="songListPlay">05:10 <i class="fa-solid fa-circle-play"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons  -->
+            <i class="fa-solid fa-3x fa-backward"></i>
+            <i class="fa-solid fa-3x fa-circle-play"></i>
+            <i class="fa-solid fa-3x fa-forward"></i>
+        </div>
+    </div>
+    
+    <!-- JavaScript  -->
+    <script src="script.js"></script>
+</body>
+</html>
